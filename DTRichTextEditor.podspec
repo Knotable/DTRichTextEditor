@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/Cocoanetics/DTRichTextEditor.git', :tag => spec.version.to_s }
   spec.source_files = 'Core/Source/*.{h,m,c}', 'Core/*.h'
   spec.prefix_header_contents = '#import "DTLog.h"'
-  spec.dependency 'DTCoreText', :git => 'https://github.com/Knotable/DTCoreText.git'
+  spec.dependency 'DTCoreText', '~>1.6.19', :git => 'https://github.com/Knotable/DTCoreText.git'
   spec.dependency 'DTWebArchive', '~>0.0.2'
   spec.dependency 'DTLoupe', '~>1.5.8'
   spec.dependency 'DTFoundation/Core', '~>1.7.8'
